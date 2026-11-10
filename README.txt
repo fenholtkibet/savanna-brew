@@ -17,7 +17,10 @@ css/style.css was validated with the W3C CSS Validator
 (https://jigsaw.w3.org/css-validator/) - result: no errors.
 
 Remaining warnings:
-- None
+- HTML: none.
+- CSS: 21 warnings, all "Due to their dynamic nature, CSS variables are
+  currently not statically checked". These come from using CSS custom
+  properties (var(--...)), which the assignment requires. They are not errors.
 
 BONUS FEATURES
 - CSS animation: hero text fades in and slides up on page load.
